@@ -160,6 +160,8 @@ section {
   display: flex;
   align-items: center;
   color: var(--second-title-color);
+  padding-top: 32px;
+  padding-bottom: 32px;
 }
 
 .site-mailtel-link:hover,
@@ -320,14 +322,19 @@ section {
   display: flex;
   justify-content: center;
   gap: 30px;
-  background-color: #ffffff;
+  /* background-color: #ffffff; */
   /* padding-bottom: 94px; */
 }
+
+.team-item {
+  background-color: #ffffff;
+}
+
 .team-container {
   padding-top: 30px;
   padding-bottom: 30px;
-  padding-left: 10px;
-  padding-right: 10px;
+  padding-left: 32px;
+  padding-right: 32px;
   box-shadow: 0px 1px 3px rgba(0, 0, 0, 0.12), 0px 1px 1px rgba(0, 0, 0, 0.14),
     0px 2px 1px rgba(0, 0, 0, 0.2);
 }
@@ -420,16 +427,10 @@ section {
 }
 
 .client-logo-link {
-  /* padding-top: 16px;
-  padding-bottom: 16px;
-  padding-left: 32px;
-  padding-right: 32px;
-  border-radius: 1px #afb1b8; */
   border: 1px solid rgba(175, 177, 184, 1);
   border-radius: 4px;
   cursor: pointer;
   /* display: block; */
-  /* box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25); */
   display: flex;
   align-items: center;
   justify-content: center;
@@ -437,10 +438,7 @@ section {
   height: 92px;
 }
 
-.client-logo-link:hover .client-logo-icon {
-  fill: #2196f3;
-}
-
+.client-logo-link:hover .client-logo-icon,
 .client-logo-link:focus .client-logo-icon {
   fill: #2196f3;
 }
@@ -498,6 +496,17 @@ section {
   margin-bottom: 9px;
   /* gap: 9px; */
 }
+
+.addres-link-footer:hover,
+.addres-link-footer:focus {
+  color: var(--axent-color);
+}
+
+.addres-link-adres:hover,
+.addres-link-adres:focus {
+  color: var(--axent-color);
+}
+
 .footer-conteiner {
   display: flex;
   align-items: baseline;
